@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: ["smart-folio-assist.onrender.com"]
   },
   plugins: [
     react(),
